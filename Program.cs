@@ -20,6 +20,14 @@ namespace МАПО_ПР_08_Аксеновский_Алиев
 			{
 				Console.Write(value + " ");
 			}
+			// Сортировать массив по убыванию
+			Array.Reverse(arr);
+			Console.WriteLine("\n\nПо убыванию: ");
+			// Вывод всех элементов массива
+			foreach (int value in arr)
+			{
+				Console.Write(value + " ");
+			}
 		}
     }
 }
